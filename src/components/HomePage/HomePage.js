@@ -5,9 +5,8 @@ import Content from 'components/Content';
 
 const P = styled.p`
   font-size: 1.25rem;
-  max-width: 150px;
+  max-width: 300px;
   line-height: 2rem;
-  font-waight: bold;
 `;
 
 const  HomePage = () => {

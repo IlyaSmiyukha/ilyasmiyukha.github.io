@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import App from './App';
+import Page from './Page';
 
-test('renders App component', () => {
-  const { getByText } = render(<App />);
+test('renders Page component', () => {
+  const { getByText } = render(<Page />);
 
   expect(getByText(/Portfolio/i)).toBeInTheDocument();
 });
