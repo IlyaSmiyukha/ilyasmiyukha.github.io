@@ -39,7 +39,7 @@ const  Loader = ({ showLoader, setLoader }) => {
 
   useEffect(() => {
     setLoader(false)
-  }, [])
+  }, [setLoader])
 
   return (
     <Transition nodeRef={nodeRef} in={showLoader} timeout={2000} unmountOnExit={true} mountOnEnter>
