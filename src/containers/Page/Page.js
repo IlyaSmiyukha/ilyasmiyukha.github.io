@@ -4,7 +4,7 @@ import { Transition } from 'react-transition-group';
 import {
   Route,
   Routes,
-  BrowserRouter
+  HashRouter
 } from "react-router-dom";
 
 import Header from 'components/Header'
@@ -52,7 +52,7 @@ const  Page = ({ showLoader }) => {
     {
       state => (
         <PageContainer ref={nodeRef}  style={transitionStyles[state]}>
-          <BrowserRouter>
+          <HashRouter>
             <RightPanel>
               <Header />
               <Navigation />
@@ -64,7 +64,7 @@ const  Page = ({ showLoader }) => {
                 <Route path="/contacts" element={<Contacts />} />
               </Routes>
             </Content>
-          </BrowserRouter>
+          </HashRouter>
         </PageContainer>
       )
     }
