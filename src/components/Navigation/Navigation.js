@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Nav = styled.nav`
   height: 30vh;
@@ -16,6 +16,18 @@ const Nav = styled.nav`
     line-height: 2rem;
     display: block;
     margin-bottom: 5px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.active {
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 `;
 
@@ -23,13 +35,17 @@ const List = styled.ul`
   list-style: none;
 `;
 
+const activeStyle={
+  fontWeight: 'bold'
+}
+
 const  Navigation = () => {
   return (
     <Nav>
       <List>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/projects'>Projects</Link></li>
-        <li><Link to='/contacts'>Contacts</Link></li>
+        <li><NavLink className={({isActive}) => isActive ? 'active' : ''} to='/' end>Home</NavLink></li>
+        <li><NavLink className={({isActive}) => isActive ? 'active' : ''} to='/projects'>Projects</NavLink></li>
+        <li><NavLink className={({isActive}) => isActive ? 'active' : ''} to='/contacts'>Contacts</NavLink></li>
       </List>
     </Nav>
   );
