@@ -52,7 +52,7 @@ const  Bubbles = ({theme}) => {
 
 const  Background = ({ theme }) => {
   return (
-    <BackgroundContainer>
+    <BackgroundContainer data-testid='background'>
       <Canvas dpr={[1, 1]} camera={{  position: [0, 50, 50], near: 5, far: 100 }}>
        <ambientLight intensity={.5} />
        <Bubbles theme={theme}/>
