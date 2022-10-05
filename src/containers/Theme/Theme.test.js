@@ -1,15 +1,18 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { Provider } from 'react-redux';
-import { store } from './app/store';
-import App from './App';
+import Theme from './Theme';
 
-test('renders learn react link', () => {
-  const { getByText } = render(
-    <Provider store={store}>
-      <App />
-    </Provider>
-  );
 
-  expect(getByText(/learn/i)).toBeInTheDocument();
+describe('renders Theme component', () => {
+  let component;
+
+  beforeEach(() => {
+    component = render(<Theme type='dark'>test</Theme>);
+  });
+
+  it('should render page LinkedIn link', async () => {
+    const { getByText } = component;
+    const theme = await getByText(/test/i);
+    expect(theme).toBeInTheDocument();
+  });
 });
