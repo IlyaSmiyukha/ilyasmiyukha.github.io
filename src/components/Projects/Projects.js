@@ -13,7 +13,8 @@ const P = styled.p`
   width: 110px;
 `;
 
-const Animation = styled.div`
+const Animation = styled.span`
+  display: block;
   overflow: hidden;
   white-space: nowrap;
   animation: ${widthAnimation} 3s infinite ease-in-out;
