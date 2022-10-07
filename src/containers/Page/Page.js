@@ -23,7 +23,13 @@ const PageContainer = styled.div`
   padding: 20px;
   opacity: 0;
   display: flex;
-  align-items: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @media (min-width: 768px) {
+    align-items: stretch;
+    flex-direction: row;
+  }
 `;
 
 const RightPanel = styled.div`

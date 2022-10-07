@@ -14,6 +14,8 @@ const LoaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
   font-size: 3rem;
   font-weight: 300;
   transition: opacity 2000ms ease-in-out;
