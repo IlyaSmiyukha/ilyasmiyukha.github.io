@@ -19,7 +19,7 @@ const A = styled.a`
 const  Contacts = () => {
   return (
     <Content>
-      <A href='https://www.linkedin.com/in/ilya-smiukha-147925b3/' target='_blank' rel='noopener noreferrer'>LinkedIn</A>
+      <A href='https://www.linkedin.com/in/ilya-smiukha/' target='_blank' rel='noopener noreferrer'>LinkedIn</A>
       <A href='https://twitter.com/Ilya_Smiyukha' target='_blank' rel='noopener noreferrer'>Twitter</A>
       <A href='https://github.com/IlyaSmiyukha' target='_blank' rel='noopener noreferrer'>Github</A>
       <A href='mailto:ilya.smiyuha@gmail.com' target='_blank' rel='noopener noreferrer'>Mail</A>
