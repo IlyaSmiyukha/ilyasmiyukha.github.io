@@ -7,11 +7,11 @@ import {
   HashRouter
 } from "react-router-dom";
 
-import Header from 'components/Header'
-import Navigation from 'components/Navigation'
-import HomePage from 'components/HomePage'
-import Projects from 'components/Projects'
-import Contacts from 'components/Contacts'
+import Header from 'components/Header';
+import Navigation from 'components/Navigation';
+import HomePage from 'components/HomePage';
+import Projects from 'components/Projects';
+import Contacts from 'components/Contacts';
 
 const PageContainer = styled.div`
   position: fixed;
