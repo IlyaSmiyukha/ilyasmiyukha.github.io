@@ -1,12 +1,7 @@
 import React from 'react';
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 import Content from 'components/Content';
-
-const widthAnimation = keyframes`
- 0% {  width: 100px; }
- 100% { width: 110px; }
-`
 
 const A = styled.a`
   font-size: 2.5rem;

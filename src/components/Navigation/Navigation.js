@@ -35,9 +35,6 @@ const List = styled.ul`
   list-style: none;
 `;
 
-const activeStyle={
-  fontWeight: 'bold'
-}
 
 const  Navigation = () => {
   return (
