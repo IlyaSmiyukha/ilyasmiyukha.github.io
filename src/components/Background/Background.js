@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { MathUtils } from 'three';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Instances, Instance } from '@react-three/drei';
-import { EffectComposer, SSAO } from '@react-three/postprocessing'
+import { EffectComposer, SSAO } from '@react-three/postprocessing';
 import styled from "styled-components";
 
 const BackgroundContainer = styled.div`

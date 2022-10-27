@@ -12,6 +12,10 @@ const A = styled.a`
   text-decoration: none;
   letter-spacing: -1px;
   word-spacing: -1px;
+  display: block;
+  width: auto;
+  text-align: right;
+  margin-top: 20px;
 
   &:hover {
     text-decoration: underline;
@@ -22,9 +26,26 @@ const A = styled.a`
 const  Projects = () => {
   return (
     <Content>
+
+      <A href='https://portaldev.touchcast.io/showcase/big-beautiful-showcase#/'
+         target="_blank"
+         rel="noopener norefferer"
+         style={{
+           fontSize: '4rem'
+         }}>
+        Showcase
+      </A>
       <A href='https://ilyasmiyukha.github.io/by-me-a-coffee/' target="_blank" rel="noopener norefferer">
         Buy me a crypto coffee
       </A>
+      {/*<A href='https://portaldev.touchcast.io/showcase/big-beautiful-showcase#/'
+         target="_blank"
+         rel="noopener norefferer"
+         style={{
+           fontSize: '3rem'
+         }}>
+           Coins list
+      </A>*/}
     </Content>
   );
 }
