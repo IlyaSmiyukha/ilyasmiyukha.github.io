@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 import Content from 'components/Content';
 
+import  portfolio from './Ilya_Smiyukha.pdf';
+
 const A = styled.a`
   color:  ${props => props.theme.colors.text};
   display: block;
@@ -23,7 +25,7 @@ const  Contacts = () => {
       <A href='https://twitter.com/Ilya_Smiyukha' target='_blank' rel='noopener noreferrer'>Twitter</A>
       <A href='https://github.com/IlyaSmiyukha' target='_blank' rel='noopener noreferrer'>Github</A>
       <A href='mailto:ilya.smiyuha@gmail.com' target='_blank' rel='noopener noreferrer'>Mail</A>
-      <A href='./Ilya_Smiyukha.pdf' download>Download CV</A>
+      <A href={portfolio} download>Download CV</A>
     </Content>
   );
 }
