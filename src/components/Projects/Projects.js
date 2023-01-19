@@ -26,7 +26,6 @@ const A = styled.a`
 const  Projects = () => {
   return (
     <Content>
-
       <A href='https://portaldev.touchcast.io/showcase/big-beautiful-showcase#/'
          target="_blank"
          rel="noopener norefferer"
@@ -34,6 +33,14 @@ const  Projects = () => {
            fontSize: '4rem'
          }}>
         Showcase
+      </A>
+      <A href='https://tc.touchcast.com/'
+         target="_blank"
+         rel="noopener norefferer"
+         style={{
+           fontSize: '3rem'
+         }}>
+        Touchcast
       </A>
       <A href='https://ilyasmiyukha.github.io/by-me-a-coffee/' target="_blank" rel="noopener norefferer">
         Buy me a crypto coffee
