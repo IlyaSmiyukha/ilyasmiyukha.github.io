@@ -45,14 +45,14 @@ const  Projects = () => {
       <A href='https://ilyasmiyukha.github.io/by-me-a-coffee/' target="_blank" rel="noopener norefferer">
         Buy me a crypto coffee
       </A>
-      {/*<A href='https://portaldev.touchcast.io/showcase/big-beautiful-showcase#/'
+      <A href='https://pioneerapp.xyz/'
          target="_blank"
          rel="noopener norefferer"
          style={{
            fontSize: '3rem'
          }}>
-           Coins list
-      </A>*/}
+           Pioneer (Joystream)
+      </A>
     </Content>
   );
 }
