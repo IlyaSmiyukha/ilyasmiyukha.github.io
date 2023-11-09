@@ -53,6 +53,14 @@ const  Projects = () => {
          }}>
            Pioneer (Joystream)
       </A>
+      <A href='https://app.gearbox.fi/'
+         target="_blank"
+         rel="noopener norefferer"
+         style={{
+           fontSize: '4rem'
+         }}>
+        Gearbox
+      </A>
     </Content>
   );
 }

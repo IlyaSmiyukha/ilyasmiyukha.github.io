@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import Content from 'components/Content';
 
-import  portfolio from './Ilya_Smiyukha.pdf';
+import  portfolio from './Ilya_Smiyukha_CV.pdf';
 
 const A = styled.a`
   color:  ${props => props.theme.colors.text};
