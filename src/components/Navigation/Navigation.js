@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
@@ -7,9 +7,10 @@ const Nav = styled.nav`
   flex: 1;
   display: flex;
   align-items: center;
+  padding: 0 2rem;
 
   a {
-    color: ${props => props.theme.colors.text};
+    color: ${(props) => props.theme.colors.text};
     text-decoration: none;
     cursor: pointer;
     font-size: 1.25rem;
@@ -35,17 +36,38 @@ const List = styled.ul`
   list-style: none;
 `;
 
-
-const  Navigation = () => {
+const Navigation = () => {
   return (
     <Nav>
       <List>
-        <li><NavLink className={({isActive}) => isActive ? 'active' : ''} to='/' end>Home</NavLink></li>
-        <li><NavLink className={({isActive}) => isActive ? 'active' : ''} to='/projects'>Projects</NavLink></li>
-        <li><NavLink className={({isActive}) => isActive ? 'active' : ''} to='/contacts'>Contacts</NavLink></li>
+        <li>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "")}
+            to="/"
+            end
+          >
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "")}
+            to="/projects"
+          >
+            Projects
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "")}
+            to="/contacts"
+          >
+            Contacts
+          </NavLink>
+        </li>
       </List>
     </Nav>
   );
-}
+};
 
 export default Navigation;

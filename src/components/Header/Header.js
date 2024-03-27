@@ -1,5 +1,9 @@
-import React from 'react';
+import React from "react";
 import styled from "styled-components";
+
+const HeaderConteiner = styled.header`
+  padding: 0 2rem;
+`;
 
 const Title = styled.h1`
   font-size: 3.5rem;
@@ -12,13 +16,13 @@ const Description = styled.h2`
   margin-top: 10px;
 `;
 
-const  Header = () => {
+const Header = () => {
   return (
-    <header>
+    <HeaderConteiner>
       <Title>Ilya Smiyukha</Title>
       <Description>Front-end developer</Description>
-    </header>
+    </HeaderConteiner>
   );
-}
+};
 
 export default Header;
