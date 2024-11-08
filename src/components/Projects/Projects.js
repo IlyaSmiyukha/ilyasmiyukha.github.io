@@ -28,7 +28,7 @@ const projectsList = [
   },
   {
     name: "Touchcast",
-    link: "https://tc.touchcast.com/",
+    link: "https://touchcast.com/",
   },
   {
     name: "Touchcast Microsoft Teams App",
@@ -36,6 +36,10 @@ const projectsList = [
   },
   {
     name: "Cogcache",
+    link: "https://touchcast.com/cogcache",
+  },
+  {
+    name: "Cogcache (Demo)",
     link: "https://demoassets.touchcast.com/cogcache-demo/index.html",
   },
   {
