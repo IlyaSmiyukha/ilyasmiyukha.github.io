@@ -23,6 +23,14 @@ const A = styled.a`
 
 const projectsList = [
   {
+    name: "MentorVerse",
+    link: "https://mentorverse.app/",
+  },
+  {
+    name: "Cogcache",
+    link: "https://touchcast.com/cogcache",
+  },
+  {
     name: "Showcase",
     link: "https://portaldev.touchcast.io/showcase/big-beautiful-showcase#/",
   },
@@ -33,14 +41,6 @@ const projectsList = [
   {
     name: "Touchcast Microsoft Teams App",
     link: "https://teams.microsoft.com/l/app/770b1319-9940-412b-8828-a26b45aaec42?source=app-details-dialog",
-  },
-  {
-    name: "Cogcache",
-    link: "https://touchcast.com/cogcache",
-  },
-  {
-    name: "Cogcache (Demo)",
-    link: "https://demoassets.touchcast.com/cogcache-demo/index.html",
   },
   {
     name: "Pioneer (Joystream)",
