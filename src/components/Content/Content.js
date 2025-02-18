@@ -7,7 +7,6 @@ const Section = styled.section`
   transition: opacity: .1s;
   width: 100%;
   overflow-y: auto;
-  overflow-x: hidden;
   max-height: 100%;
   padding: 0 2rem;
   display: flex;
